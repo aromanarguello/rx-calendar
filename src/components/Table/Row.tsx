@@ -1,7 +1,10 @@
 import * as React from 'react'
 import styled from 'styled-components'
 
-const StyledRow = styled.tr``
+const StyledRow = styled.tr`
+  display: flex;
+  flex-wrap: wrap;
+`
 
 export interface IRow {
   children?: React.ReactNode

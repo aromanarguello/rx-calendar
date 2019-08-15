@@ -3,6 +3,8 @@ import styled from 'styled-components'
 
 const StyledTableHeader = styled.th`
   border: 1px solid red;
+  width: 80px;
+  margin-left: 2px;
 `
 
 export interface ITableHeader {

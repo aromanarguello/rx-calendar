@@ -14,7 +14,11 @@ interface ITableProps {
   children: React.ReactNode
 }
 
-const StyledTable = styled.table``
+const StyledTable = styled.table`
+  border: 1px solid blue;
+  width: 620px;
+  height: 600px;
+`
 
 const Table: React.FC<ITableProps> & ITableComposition = ({ children }) => {
   return <StyledTable>{children}</StyledTable>

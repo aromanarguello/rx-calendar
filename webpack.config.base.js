@@ -8,7 +8,7 @@ module.exports = {
     filename: 'app.bundle.js' // name for output file
   },
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx']
+    extensions: ['.ts', '.tsx', '.js', '.jsx'] // file extensions that webpack can use
   },
   module: {
     rules: [
@@ -31,7 +31,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html'
+      template: './Public/index.html'
     })
   ]
 }

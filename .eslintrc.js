@@ -4,8 +4,8 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:jsx-a11y/recommended',
-    'plugin:prettier/recommended',
-    'prettier/react'
+    'prettier/@typescript-eslint',
+    'plugin:prettier/recommended'
   ],
   plugins: ['react-hooks', 'jsx-a11y', '@typescript-eslint'],
   parserOptions: {
@@ -27,7 +27,7 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/indent': ['error', 2],
-    '@typescript-eslint/interface-name-prefix': 2,
+    '@typescript-eslint/interface-name-prefix': 0,
     '@typescript-eslint/semi': 0,
     '@typescript-eslint/no-var-requires': 0,
     '@typescript-eslint/explicit-function-return-type': [

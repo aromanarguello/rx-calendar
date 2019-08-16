@@ -13,7 +13,8 @@ const theme = {
     small: ['1em', '1.25em', '1.5em'],
     big: ['2em', '2.5em', '3em']
   },
-  fontSizes: [12, 14, 16, 18, 20],
+  font: 'Roboto, sans-serif',
+  fontSizes: [10, 12, 14, 16, 18, 20],
   breakPoints: {
     mobileS: '320px',
     mobileM: '375px',

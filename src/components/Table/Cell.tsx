@@ -5,8 +5,8 @@ const StyledCell = styled.td`
   border: 1px solid ${props => props.theme.colors.grey};
   width: 80px;
   height: 80px;
-  margin-left: 2px;
-  margin-bottom: 2px;
+  margin: 2px 2px 2px 2px;
+  color: ${props => props.theme.colors.dark};
 `
 
 export interface ICell {
